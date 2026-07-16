@@ -14,7 +14,7 @@ public class MergeSort {
         
         // เรียกใช้ฟังก์ชัน merge ตรงนี้หลังจากแยกเสร็จ
         merge(values, left, right);
-    } // 👈 ปิดปีกกาของฟังก์ชัน sort ตรงนี้ก่อน!
+    } // ปิดปีกกาของฟังก์ชัน sort ตรงนี้ก่อน!
 
     //   แล้วค่อยเขียนฟังก์ชัน merge ต่อท้ายแบบนี้
     public static void merge(int[] values, int[] left, int[] right) {
