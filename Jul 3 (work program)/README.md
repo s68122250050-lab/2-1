@@ -3,6 +3,15 @@
 ชื่อโปรแกรม
 - EvenOdd
 
+Pseudocode
+เริ่มต้น
+  รับค่าตัวเลข number จากผู้ใช้
+  ถ้า number หารด้วย 2 ลงตัว
+    แสดงข้อความ "Even number"
+  ไม่เช่นนั้น
+    แสดงข้อความ "Odd number"
+จบ
+
 Input
 - รับค่าตัวเลขจำนวนเต็มจากผู้ใช้ผ่านแป้นพิมพ์
 
@@ -29,6 +38,18 @@ Output
 
 ชื่อโปรแกรม
 - PassFail
+
+Pseudocode
+เริ่มต้น
+  รับคะแนนกลางภาค midterm
+  รับคะแนนปลายภาค finalScore
+  คำนวณ total = midterm + finalScore
+  แสดงค่า total
+  ถ้า total >= 50
+    แสดงข้อความ "Pass"
+  ไม่เช่นนั้น
+    แสดงข้อความ "Fail"
+จบ
 
 Input
 - รับคะแนนสอบกลางภาค
@@ -59,6 +80,17 @@ Output
 
 ชื่อโปรแกรม
 - ScoreArray
+
+Pseudocode
+เริ่มต้น
+  สร้าง array scores ขนาด 5 ช่อง
+  total = 0
+  ทำซ้ำ i ตั้งแต่ 0 ถึง 4
+    รับคะแนนเก็บใน scores[i]
+    total = total + scores[i]
+  average = total / 5
+  แสดง total และ average
+จบ
 
 Input
 - รับคะแนนจากผู้ใช้จำนวน 5 ค่า
